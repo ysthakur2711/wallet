@@ -1,0 +1,20 @@
+{
+  "internalHostAndPort": "0.0.0.0:8000",
+  "mode": "test",
+  "logger": {
+    "level": 5,
+    "tag": "wallet"
+  },
+  "mysql": {
+    "master": {
+      "dsn": "rootYogesh2711@MySql$@tcp(localhost:3306)/walletdb?parseTime=true",
+      "maxIdle": 3,
+      "maxOpen": 30
+    },
+    "slave": {
+      "dsn": "rootYogesh2711@MySql$@tcp(localhost:3306)/walletdb?parseTime=true",
+      "maxIdle": 3,
+      "maxOpen": 30
+    }
+  }
+}
