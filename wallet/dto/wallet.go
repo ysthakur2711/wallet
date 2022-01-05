@@ -3,6 +3,7 @@ package dto
 import (
 	"time"
 	"wallet/model"
+	"wallet/store"
 )
 
 type TransferMoneyDto struct {

@@ -2,6 +2,7 @@ package local_errors
 
 import (
 	"errors"
+	"github.com/go-chi/render"
 	"net/http"
 )
 

@@ -4,6 +4,9 @@ import (
 	"context"
 	"errors"
 	"fmt"
+	"github.com/jinzhu/gorm"
+	uuid "github.com/nu7hatch/gouuid"
+	"github.com/sirupsen/logrus"
 	"time"
 	"wallet/model"
 )
@@ -158,6 +161,7 @@ func (q *walletRepository) SendMoney(ctx context.Context, arg SendMoneyParams) (
 
 		return err
 	})
+	return res, err
 }
 
 type AddWalletBalanceParams struct {

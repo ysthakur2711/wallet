@@ -4,7 +4,26 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96db1934-b7f0-4713-89b3-dd9ee0292771" name="Changes" comment="" />
+    <list default="true" id="96db1934-b7f0-4713-89b3-dd9ee0292771" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/wallet/store/mocks/UserRepo.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallet/store/mocks/WalletRepo.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallet/util/password.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet/api/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/api/user.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet/api/wallet.go" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/api/wallet.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet/dto/wallet.go" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/dto/wallet.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet/pkg/local_errors/errors.go" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/pkg/local_errors/errors.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet/server/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/server/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet/service/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/service/user.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet/service/wallet.go" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/service/wallet.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet/store/mocks/TransRepo.go" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/store/mocks/TransRepo.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet/store/trans.go" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/store/trans.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet/store/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/store/user.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet/store/wallet.go" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/store/wallet.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

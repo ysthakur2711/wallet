@@ -2,8 +2,12 @@ package api
 
 import (
 	"encoding/json"
+	"github.com/go-chi/render"
+	"github.com/go-playground/validator"
+	"github.com/sirupsen/logrus"
 	"net/http"
 	"wallet/dto"
+	types "wallet/pkg/local_errors"
 	"wallet/service"
 )
 
@@ -54,7 +58,6 @@ func (wr *walletResource) AddWallet(w http.ResponseWriter, r *http.Request) {
 	render.JSON(w, r, wallet)
 }
 func (wr *walletResource) Pay(w http.ResponseWriter, r *http.Request) {
-	
 
 	logrus.Println("log Pay in api/wallet/Pay ")
 

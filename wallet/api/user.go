@@ -5,10 +5,10 @@ import (
 	"github.com/go-chi/render"
 	"github.com/go-playground/validator"
 	"github.com/sirupsen/logrus"
-	"github.com/ysthakur2711/wallet/dto"
-	types "github.com/ysthakur2711/wallet/pkg/local_errors"
-	"github.com/ysthakur2711/wallet/service"
 	"net/http"
+	"wallet/dto"
+	types "wallet/pkg/local_errors"
+	"wallet/service"
 )
 
 type UserResource interface {
